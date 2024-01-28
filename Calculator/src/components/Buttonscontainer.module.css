@@ -1,0 +1,44 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+
+  .buttonscontainer {
+    display: flex;
+    justify-content: center;
+    align-content: start; 
+    flex-wrap: wrap;
+    height: 400px;
+    width: 200px;
+    padding: 10px; 
+
+    
+  }
+.button
+{
+  width: 50px;
+  height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    color:#90d4cb;
+    font-size: 20px;
+
+    /* border:0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background:transparent;
+    font-size: #fff;
+    cursor: pointer;
+    margin:10px; */
+
+   
+}
